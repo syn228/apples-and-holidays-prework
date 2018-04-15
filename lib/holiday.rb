@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.collect do |season, holiday|
     season.to_s.capitalize
+    holiday.collect do |attribute, value|
       
 end
 
